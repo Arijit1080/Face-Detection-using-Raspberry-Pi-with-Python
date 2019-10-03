@@ -20,8 +20,8 @@ Python3 face_detect.py
 To use Raspberry Pi camera module
 
 ```
-#c = VideoStream(src=0).start()         	//For webcam
-c = VideoStream(usePiCamera=True).start()       //For Raspberry Pi Camera
+#c = VideoStream(src=0).start()         	//For webcam, comment it if using Raspberry Pi Camera module 
+c = VideoStream(usePiCamera=True).start()       //For Raspberry Pi Camera module, comment it if using webcam
 ```
 
 To use webcam
@@ -48,8 +48,6 @@ c = VideoStream(src=1).start() #If system has more than one webcam use the 'src'
 ## Authors
 
 **Arijit Das** 
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 
 ## Acknowledgments
