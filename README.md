@@ -1,6 +1,6 @@
-# Face Detection using Raspberry Pi
+# Face Detection using DLIB in Raspberry Pi
 
-Simple code in python for Face Detection using Raspberry Pi or any other PC.
+Simple code in python using DLIB for Face Detection in Raspberry Pi or any other PC.
 
 ## Dependencies
 
