@@ -8,7 +8,7 @@ import time
 detector = dlib.get_frontal_face_detector()
 
 print("->Starting Face Detection")
-c = VideoStream(src=1).start()         		 #For webcam, comment it if using Raspberry Pi Camera module 
+c = VideoStream(src=0).start()         		 #For webcam, comment it if using Raspberry Pi Camera module 
 #c = VideoStream(usePiCamera=True).start()       #For Raspberry Pi Camera module, comment it if using webcam
 time.sleep(2.0)
 
